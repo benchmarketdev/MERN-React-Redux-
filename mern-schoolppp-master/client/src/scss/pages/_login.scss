@@ -1,0 +1,23 @@
+// Login - Register Page
+
+.page-login,
+.page-register {
+  .login-wrapper {
+    max-width: 360px;
+    margin: 5% auto;
+  }
+  form {
+    width: 330px;
+    .form-control {
+      margin: 0.2rem;
+      color: $login-form-control_color;
+      background-color: $login-form-control_bg;
+      border-color: $login-form-control-border_color;
+    }
+    input::placeholder { color: $login-form-control-placeholder_color; }
+  }
+  .forgot a {
+    color: $login-forgot_color;
+    &:hover { color: $login-forgot-hover_color; }
+  }
+}
